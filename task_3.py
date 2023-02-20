@@ -15,4 +15,4 @@ for i in range(user_n):
         except ValueError:
             print(f'формат времени {time_user} неправильный !!. вводите в формате - |час:минута:cекунда| ')
     
-print(time_list)
+print(sorted(time_list, reverse=True))

@@ -43,3 +43,7 @@ for i in g:
         print("не является прямым")
         with open('truefalse.txt', 'w') as file:
             file.write(f"{False}")
+            
+            
+            
+            
